@@ -13,12 +13,12 @@
     "tls":
       "trustStore":
         "path": "truststore.jks"
-        "password-secure": "{cipher}1202f89d8891c5dd0caab0c2ebd81937502cbb2081e8b5abf5cb6022d115068b"
+        "password-secure": "{cipher}3f2fdd06be914dd33819689bd4aee7c9ae5c2b98f9b50371082a0e54e71149f2"
       "keyStore":
-        "password-secure": "{cipher}d323185e50d299647e298f6dae142e5e4bbf9f604d22e974f5fea4f42571a75f"
+        "password-secure": "{cipher}cd3ecc6cfbeb573dd0fd96d97d6f521d4fa5ca0c1ca2d1a04a71187b291edbcc"
         "path": "keystore.jks"
         "key":
-          "password-secure": "{cipher}389f0b81375903997ca6df8c9cb244c307cd6c313b315b39f756319841be3bff"
+          "password-secure": "{cipher}83168277011354053b0de09f5806eb18494df0811cc6aaf579addad7704c44a8"
     "port": "9840"
     "host": "0.0.0.0"
   "http":
