@@ -1,0 +1,29 @@
+"server":
+  "https":
+    "tls":
+      "trustStore":
+        "path": "truststore.jks"
+        "password-secure": "{cipher}86e03c6d1a73ec2601729a167ce5135852a40990100b67496e31344bcb5ed38a"
+      "keyStore":
+        "password-secure": "{cipher}033742b6fb7da55ad0d7c633132e8524d7b2f511c6873121842d3d5e0500f161"
+        "path": "keystore.jks"
+        "key":
+          "password-secure": "{cipher}c8a543c1f9a716062841cbcf21996e4530d497b26829161bd5126f4ec95c332e"
+    "port": "9830"
+    "host": "0.0.0.0"
+  "http":
+    "host": "0.0.0.0"
+    "port": "9831"
+  "request":
+    "replay":
+      "tls":
+        "keyStore":
+          "key":
+            "password-secure": "{cipher}a7780091437dfc2edb68debac5948d2aae0db263770d64b786d8d42426ef19b2"
+          "password-secure": "{cipher}a690bed2e20491a92c01979eb36d233b30316d10625c79bab42f6a6a8309250b"
+          "path": "keystore.jks"
+        "trustStore":
+          "password-secure": "{cipher}41810b3658052a8b74d4d45d702db759b5dfd2d54048c41d6429aa29b1f4f60a"
+          "path": "truststore.jks"
+  "listener":
+    "config": "HTTPS_Listener_config"
