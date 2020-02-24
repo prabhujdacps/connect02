@@ -1,0 +1,30 @@
+"eframework":
+  "errorReport":
+    "errorReportPath": "./errorReports"
+    "title": "SRS Error Report"
+    "payload":
+      "transaction":
+        "size": "2048"
+    "htmlTemplatePath": "errorReportTemplate.html"
+    "enabled": "true"
+  "applicationId": "srs"
+"server":
+  "https":
+    "tls":
+      "trustStore":
+        "path": "truststore.jks"
+        "password-secure": "{cipher}334676714c9a80e5ca22ff03a98804d73b111eda089b402fbf6021beb4f38122"
+      "keyStore":
+        "password-secure": "{cipher}64d14a5cb66c548af67d9a3d3d2048c7a3a0c6f2ed0685e80a40cc50776332b2"
+        "path": "keystore.jks"
+        "key":
+          "password-secure": "{cipher}da6d87d4b1326a58b29d7a460052f6372dd2e3d1bcc0b6cf0ae0788b419b5c11"
+    "port": "9820"
+    "host": "0.0.0.0"
+  "http":
+    "host": "0.0.0.0"
+    "port": "9821"
+  "listener":
+    "config": "HTTPS_Listener_config"
+"srs":
+  "rootDirectory": "resources/configuration"
