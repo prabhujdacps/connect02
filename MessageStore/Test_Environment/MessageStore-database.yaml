@@ -1,0 +1,12 @@
+"queryTimeout": "500"
+"MSDatabase":
+  "password": "testPasssword"
+  "connection":
+    "maxWait": "10"
+    "maxPoolSize": "100"
+    "minPoolSize": "10"
+    "preparedStatementCacheSize": "10"
+    "acquireIncrement": "2"
+  "url": "jdbc:oracle:thin:@localhost:1521:TestDB"
+  "user": "testUser"
+  "driverClassName": "oracle.jdbc.driver.OracleDriver"
