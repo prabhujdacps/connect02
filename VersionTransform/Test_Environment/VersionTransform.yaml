@@ -1,0 +1,33 @@
+"eframework":
+  "errorReport":
+    "errorReportPath": "../logs/errorReports/jda-version-transformation-service"
+    "title": "Version Transformation Service error"
+    "payload":
+      "transaction":
+        "size": "2048"
+    "htmlTemplatePath": "errorReportTemplate.html"
+    "enabled": "false"
+  "applicationId": "vts"
+"server":
+  "https":
+    "tls":
+      "trustStore":
+        "path": "truststore.jks"
+        "password-secure": "{cipher}e875526ca13081e4735a47e6816d3d3ab48e04a923994f948c543c154db30aee"
+      "keyStore":
+        "password-secure": "{cipher}5c58744167e5e799d22a1606702d755da3a4731c2135414ddff691be66a6056b"
+        "path": "keystore.jks"
+        "key":
+          "password-secure": "{cipher}19ecf75a79910b458fd213f1fb01e6b1cb57af5b7d7b60115730a6cca8ab4ac1"
+    "port": "9840"
+    "host": "0.0.0.0"
+  "http":
+    "host": "0.0.0.0"
+    "port": "9841"
+  "listener":
+    "config": "HTTPS_Listener_config"
+"vts":
+  "basePath": "/vts"
+  "path": "/api/v1"
+  "cpsTransformations":
+    "basePath": "resources/Transforms/"
