@@ -3,12 +3,12 @@
     "tls":
       "trustStore":
         "path": "truststore.jks"
-        "password-secure": "{cipher}4a75eaa593e1e57d3c2dfaa32a286ea7cdc99d676ad65dbc954498ba3e0ac5d7"
+        "password-secure": "{cipher}048f9f244b97b98ae0de9d5a22d1ebd97a6294b6a07ae9895771fb9dab7474ed"
       "keyStore":
-        "password-secure": "{cipher}1ddcf2f4dd4d6d6781af819356b175bda190f75b9fcedcefe522913bc6c02734"
+        "password-secure": "{cipher}d71ac083f01eadbdc7213fbf62af17b703f742c244faeb0e607c4f492a44b789"
         "path": "keystore.jks"
         "key":
-          "password-secure": "{cipher}4b26f074545a93aad659b079a1de9dcb7b9d14a5d8837f957a98e2c1e4aa0734"
+          "password-secure": "{cipher}8bba4df8c256e7c5924b292e0f29a06c93c8d4a28dc5266b279e1ed237cd7201"
     "port": "9830"
     "host": "0.0.0.0"
   "http":
@@ -19,11 +19,11 @@
       "tls":
         "keyStore":
           "key":
-            "password-secure": "{cipher}0ee45e82f78bd0c9f901c204c4051e83a45073ed8be5266f41044500d31d0162"
-          "password-secure": "{cipher}2240295ace503ff0ba7cb5cd17f4faab475dc3e9ed72dd529fad32c9ec9e34b3"
+            "password-secure": "{cipher}27ed3c5bf759bfa4b99ea4a2135f137f200037000b6be59f27e896460ffd902d"
+          "password-secure": "{cipher}b0e6f0067d699f297fea4b64f025c547389d445c6685cf451006b49d83de9906"
           "path": "keystore.jks"
         "trustStore":
-          "password-secure": "{cipher}73f87d6fa4aa48d62d218b692c19786f419dbcb88647383d1e6b26dcd522f216"
+          "password-secure": "{cipher}fa87b846af5ca182cbc635069903978918b131d43b14c9ca1527ca009232079e"
           "path": "truststore.jks"
   "listener":
     "config": "HTTPS_Listener_config"
