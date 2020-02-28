@@ -1,12 +1,12 @@
 "queryTimeout": "500"
 "MSDatabase":
-  "password": "Itunes@123123123"
+  "password": "testPasssword"
   "connection":
     "maxWait": "10"
     "maxPoolSize": "100"
     "minPoolSize": "10"
     "preparedStatementCacheSize": "10"
     "acquireIncrement": "2"
-  "url": "jdbc:sqlserver://jdaazsqldb01.public.33e2f3684252.database.windows.net:3342;databaseName=jdaazsqldb02"
-  "user": "jdaazsqldb01"
-  "driverClassName": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  "url": "jdbc:oracle:thin:@localhost:1521:TestDB"
+  "user": "testUser"
+  "driverClassName": "oracle.jdbc.driver.OracleDriver"
